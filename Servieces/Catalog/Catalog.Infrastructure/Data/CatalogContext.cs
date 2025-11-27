@@ -8,7 +8,9 @@ namespace Catalog.Infrastructure.Data
     {
         // MongoDB collections for Products, Brands, and Types
         public IMongoCollection<Product> Products { get; }
+
         public IMongoCollection<ProductBrand> Brands { get; }
+
         public IMongoCollection<ProductType> Types { get; }
 
         // Constructor that initializes the database connection and collections
