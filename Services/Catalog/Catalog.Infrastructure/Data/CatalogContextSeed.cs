@@ -12,8 +12,9 @@ namespace Catalog.Infrastructure.Data
             bool checkProducts = productCollection.Find(b => true).Any();
 
             // Build the path to the JSON seed data file for products
-            string path = Path.Combine("Data", "SeedData", "products.json");
-
+            //string path = Path.Combine("Data", "SeedData", "products.json");
+            var basePath = AppContext.BaseDirectory;
+            var path = Path.Combine(basePath, "Data", "SeedData", "products.json");
             // Only seed data if the collection is empty (no existing products)
             if (!checkProducts)
             {

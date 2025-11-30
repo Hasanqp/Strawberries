@@ -1,166 +1,166 @@
 [
   {
-    "Id": "4ce1d136-1879-48f1-b081-a298f39eff2c",
+    "Id": "692bbdc4ad8c66a4ab0ffe1a",
     "Name": "Кроссовки adidas Crazyflight 6 Indoor White/Black",
     "Description": "Предназначены для профессиональных волейболистов и любителей. Эти кроссовки для зала выполнены из синтетического материала, который обеспечивает идеальную посадку и поддержку стопы во время прыжков и резких движений, а промежуточная подошва из EVA создает эффективную амортизацию при приземлении. Модель разработана специально для игры в волейбол.",
     "Price": 17000,
     "ImageFile": "images/products/adidas_shoe-1.png",
     "Summary": "Кроссовки adidas Crazyflight 6 Indoor White/Black",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "f1804d78-3a21-44bb-889e-2099c10b004b",
+      "Id": "692bbdc4ad8c66a4ab0ffe11",
       "Name": "Adidas"
     }
   },
   {
-    "Id": "f586e202-a9d5-4c32-82fa-acbc566d9586",
+    "Id": "692bbdc4ad8c66a4ab0ffe1b",
     "Name": "Кроссовки Adidas Performance Crazyflight 6",
     "Description": "Кроссовки Adidas Crazyflight 6, созданные для игр в закрытых помещениях, обладают дышащим верхом из сетки и мягкой подкладкой. Они готовы обеспечить вам максимальную устойчивость во время боковых движений.",
     "Price": 11000,
     "ImageFile": "images/products/adidas_shoe-2.png",
     "Summary": "Кроссовки Adidas Performance Crazyflight 6",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "f1804d78-3a21-44bb-889e-2099c10b004b",
+      "Id": "692bbdc4ad8c66a4ab0ffe11",
       "Name": "Adidas"
     }
   },
   {
-    "Id": "ca53ea7f-6cb9-4c2a-9507-b7632a599742",
+    "Id": "692bbdc4ad8c66a4ab0ffe1c",
     "Name": "Кроссовки Adidas Performance Novaflight 2",
     "Description": "Эти кроссовки Adidas разработаны для indoor-атлетов и обеспечивают необходимую поддержку во время интенсивных тренировок. Мягкий верх с мягким язычком и воротником обернет вашу ногу комфортом во время захватывающей игры.",
     "Price": 11000,
     "ImageFile": "images/products/adidas_shoe-3.png",
     "Summary": "Кроссовки Adidas Performance Novaflight 2",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "f1804d78-3a21-44bb-889e-2099c10b004b",
+      "Id": "692bbdc4ad8c66a4ab0ffe11",
       "Name": "Adidas"
     }
   },
   {
-    "Id": "f23dde7a-a796-4ecb-bc0d-3c68065d74e6",
+    "Id": "692bbdc4ad8c66a4ab0ffe1d",
     "Name": "Мужские кроссовки Pulse (модель 219-02MV-016SR)",
     "Description": "Идеальный выбор для практичного мужчины, Для тех дней, когда требуется удобная элегантность без компромиссов.. — это ваше решение. Благодаря классическому и современному дизайну, эти черные кроссовки подходят для различных мероприятий  — от работы до повседневных прогулок.",
     "Price": 2500,
     "ImageFile": "images/products/pluse_shoe-1.png",
     "Summary": "Мужские кроссовки Pulse (модель 219-02MV-016SR)",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "e7d33fc5-2169-40b4-a02a-211dd4b555ef",
+      "Id": "692bbdc4ad8c66a4ab0ffe12",
       "Name": "Pluse"
     }
   },
   {
-    "Id": "cd0e9f90-de4d-43de-b6a7-cb14a54ecee4",
+    "Id": "692bbdc4ad8c66a4ab0ffe1e",
     "Name": "Кроссовки женские Pulse 189-32WA-833ST",
     "Description": "Женские кроссовки Pulse модели 189-32WA-833ST созданы для тех, кто ценит легкость, удобство и современный дизайн. Они станут вашим надежным спутником в повседневной жизни, на прогулках или во время тренировок.",
     "Price": 2800,
     "ImageFile": "images/products/pluse_shoe-2.png",
     "Summary": "Кроссовки женские Pulse 189-32WA-833ST",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "e7d33fc5-2169-40b4-a02a-211dd4b555ef",
+      "Id": "692bbdc4ad8c66a4ab0ffe12",
       "Name": "Pluse"
     }
   },
   {
-    "Id": "23c5aea2-8c2c-43e7-aa7f-71192b5dc50e",
+    "Id": "692bbdc4ad8c66a4ab0ffe1f",
     "Name": "Кроссовки женские Pulse 187-31WA-710ST",
     "Description": "Элегантность и комфорт в каждой детали! Женские кроссовки Pulse модели 187-31WA-710ST созданы для современных активных женщин, ценящих стиль и удобство в повседневной жизни.",
     "Price": 3199,
     "ImageFile": "images/products/pluse_shoe-3.png",
     "Summary": "Кроссовки женские Pulse 187-31WA-710ST",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "e7d33fc5-2169-40b4-a02a-211dd4b555ef",
+      "Id": "692bbdc4ad8c66a4ab0ffe12",
       "Name": "Pluse"
     }
   },
   {
-    "Id": "cc373a97-ce5f-4bd4-adc7-7fbfccf4ac3d",
+    "Id": "692bbdc4ad8c66a4ab0ffe20",
     "Name": "Кроссовки мужские Turbo Flow",
     "Description": "Turbo Flow создана для максимального комфорта и поддержки во время тренировок и повседневной носки.",
     "Price": 2399,
     "ImageFile": "images/products/demix_shoe-1.png",
     "Summary": "Кроссовки мужские Turbo Flow",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "407d9f39-8894-448c-b0c6-9b7e8575b10e",
+    "Id": "692bbdc4ad8c66a4ab0ffe21",
     "Name": "Кроссовки женские Speed Trail Pro",
     "Description": "Speed Trail Pro создана для максимального комфорта и поддержки во время тренировок и повседневной носки.",
     "Price": 4200,
     "ImageFile": "images/products/demix_shoe-2.png",
     "Summary": "Кроссовки женские Speed Trail Pro",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "3317284a-4aae-41b9-84f5-7d628561f93b",
+    "Id": "692bbdc4ad8c66a4ab0ffe22",
     "Name": "Кроссовки женские Space",
     "Description": "Покоряйте новые высоты в кроссовках Space с революционной амортизацией. Технология максимального поглощения ударов и быстрого восстановления формы обеспечивает превосходную устойчивость. Анатомические стельки сохраняют форму для длительного комфорта и оптимальной поддержки в области носка и передней части стопы.",
     "Price": 3850,
     "ImageFile": "images/products/demix_shoe-3.png",
     "Summary": "Кроссовки женские Space",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "9f1af4f1-c2d2-414e-a9a5-2f78af0f6129",
+    "Id": "692bbdc4ad8c66a4ab0ffe23",
     "Name": "Кроссовки беговые Hyperlight 2.0 Grey",
     "Description": "Легкие и технологичные кроссовки для бега с превосходной амортизацией. Дышащий сетчатый верх обеспечивает идеальную вентиляцию во время тренировок. Усовершенствованная подошва гарантирует надежное сцепление и комфорт при каждом шаге.",
     "Price": 6599,
     "ImageFile": "images/products/jogel_shoe-1.png",
     "Summary": "Кроссовки беговые Hyperlight 2.0 Grey",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "145f2dfe-7c6d-43fb-a961-59f8c8e6d238",
+    "Id": "692bbdc4ad8c66a4ab0ffe24",
     "Name": "Кроссовки беговые Fasttrack 2.0 Grey",
     "Description": "Идеальные кроссовки для динамичного бега с улучшенной системой амортизации. Дышащий материал верха и облегченная конструкция обеспечивают комфорт на любой дистанции. Эргономичный дизайн и протектор с оптимальным сцеплением для уверенных тренировок.",
     "Price": 3900,
@@ -168,48 +168,48 @@
     "ImageFile": "images/products/jogel_shoe-2.png",
     "Summary": "Кроссовки беговые Fasttrack 2.0 Grey",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "fa922f6f-3844-45ca-81de-d382149a9224",
+    "Id": "692bbdc4ad8c66a4ab0ffe25",
     "Name": "Кроссовки спортивные Fiesta, бежевый",
     "Description": "Универсальные бежевые кроссовки для повседневной носки и легких тренировок. Модель сочетает элегантный дизайн с дышащим материалом верха и гибкой подошвой. Идеальный баланс комфорта и стиля для активного образа жизни.",
     "Price": 2200,
     "ImageFile": "images/products/jogel_shoe-3.png",
     "Summary": "Кроссовки спортивные Fiesta, бежевый",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "0cdf2e2b-d085-4116-ac0d-a0d5288ae45e",
+    "Id": "692bbdc4ad8c66a4ab0ffe26",
     "Name": "PUMA Cricket Бутсы Красный/белый",
     "Description": "Стильные бутсы PUMA Cricket в красно-белой цветовой гамме созданы для уверенной и динамичной игры. Лёгкий верх обеспечивает отличную воздухопроницаемость, а прочная конструкция гарантирует стабильность при резких движениях. Амортизирующая подошва снижает нагрузку на стопу во время длительных матчей, а продуманная шипованная поверхность улучшает сцепление на поле. Идеальный выбор для тех, кто ценит комфорт, надёжность и яркий спортивный стиль.",
     "Price": 7700,
     "ImageFile": "images/products/puma_shoe-1.png",
     "Summary": "PUMA Cricket Бутсы Красный/белый",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "647c5c4a-e952-4745-ac0c-718f3ffbb0a6",
+      "Id": "692bbdc4ad8c66a4ab0ffe10",
       "Name": "Puma"
     }
   },
   {
-    "Id": "3c20e1ae-0061-4ae0-a9e1-ea55897eb15e",
+    "Id": "692bbdc4ad8c66a4ab0ffe27",
     "Name": "PUMA Cricket Бутсы Бежевый/белый",
     "Description": "Специализированные бутсы для крикета с уникальным сочетанием стиля и функциональности. Бежево-белый дизайн выполнен в классической цветовой гамме. Прочная шипованная подошва обеспечивает оптимальное сцепление с покрытием.",
     "Price": 7700,
@@ -217,112 +217,112 @@
     "ImageFile": "images/products/puma_shoe-2.png",
     "Summary": "PUMA Cricket Бутсы Бежевый/белый",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "647c5c4a-e952-4745-ac0c-718f3ffbb0a6",
+      "Id": "692bbdc4ad8c66a4ab0ffe10",
       "Name": "Puma"
     }
   },
   {
-    "Id": "e1f82cdc-60e3-45bb-b29d-b106ee8957ef",
+    "Id": "692bbdc4ad8c66a4ab0ffe28",
     "Name": "Мужские кроссовки PUMA BMW MMS R-Cat Machina",
     "Description": "Модель R-cat Machina сочетает в себе производительность и стиль. Кроссовки вдохновлены современной гоночной эстетикой, но при этом сохраняют свои культовые «крылья» по бокам и элегантный классический верх из искусственной кожи.",
     "Price": 5890,
     "ImageFile": "images/products/puma_shoe-3.png",
     "Summary": "Мужские кроссовки PUMA BMW MMS R-Cat Machina",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "647c5c4a-e952-4745-ac0c-718f3ffbb0a6",
+      "Id": "692bbdc4ad8c66a4ab0ffe10",
       "Name": "Puma"
     }
   },
   {
-    "Id": "f83676ae-6ffd-4962-b352-21bced8c6136",
+    "Id": "692bbdc4ad8c66a4ab0ffe29",
     "Name": "Кроссовки мужские Сигма 20136-2 Серый",
     "Description": "Стильные мужские кроссовки для повседневной носки, выполненные в классическом сером цвете. Модель отличается удобной колодкой и дышащим материалом верха. Универсальный дизайн подходит для создания различных образов.",
     "Price": 4850,
     "ImageFile": "images/products/sigma_shoe-1.png",
     "Summary": "Кроссовки мужские Сигма 20136-2 Серый",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "a7b65c7d-1517-4184-9976-9db414b3c00d",
+      "Id": "692bbdc4ad8c66a4ab0ffe13",
       "Name": "Sigma"
     }
   },
   {
-    "Id": "ebfb6e17-937f-4f53-bcf8-c4b44b6eaa50",
+    "Id": "692bbdc4ad8c66a4ab0ffe2a",
     "Name": "Кроссовки мужские Сигма 21897",
     "Description": "Современные мужские кроссовки для активного образа жизни. Модель отличается эргономичным дизайном и качественными дышащими материалами. Удобная колодка обеспечивает комфорт в течение всего дня. Универсальный стиль подходит для повседневной носки и спортивных занятий.",
     "Price": 4400,
     "ImageFile": "images/products/sigma_shoe-2.png",
     "Summary": "Кроссовки мужские Сигма 21897",
     "Types": {
-      "Id": "1cdb51bc-3a4d-4292-b25c-a8727efca660",
+      "Id": "692bbdc4ad8c66a4ab0ffe16",
       "Name": "Обувь"
     },
     "Brands": {
-      "Id": "a7b65c7d-1517-4184-9976-9db414b3c00d",
+      "Id": "692bbdc4ad8c66a4ab0ffe13",
       "Name": "Sigma"
     }
   },
   {
-    "Id": "9725354b-5c8c-4b14-8c75-a3de41ada615",
+    "Id": "692bbdc4ad8c66a4ab0ffe2b",
     "Name": "Кроссовки мужские D-COURT 2 белый",
     "Description": "Идеальный выбор для волейбола и других видов спорта. Специальная конструкция верха обеспечивает надежную фиксацию стопы и оптимальную поддержку. Усиленная амортизация снижает нагрузку на суставы при прыжках.",
     "Price": 4699,
     "ImageFile": "images/products/demix_volleyball-1.png",
     "Summary": "Кроссовки мужские D-COURT 2 белый",
     "Types": {
-      "Id": "e201e727-a8c3-4c81-bb55-8f4ad7c361e0",
+      "Id": "692bbdc4ad8c66a4ab0ffe17",
       "Name": "Волейбол"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "d21ac5de-cc2d-4e48-af23-92c2981f809c",
+    "Id": "692bbdc4ad8c66a4ab0ffe2c",
     "Name": "Кроссовки мужские D-COURT 2 желтый/черный",
     "Description": "Идеальный выбор для волейбола и других видов спорта. Специальная конструкция верха обеспечивает надежную фиксацию стопы и оптимальную поддержку. Усиленная амортизация снижает нагрузку на суставы при прыжках.",
     "Price": 4399,
     "ImageFile": "images/products/demix_volleyball-2.png",
     "Summary": "Кроссовки мужские D-COURT 2 желтый/черный",
     "Types": {
-      "Id": "e201e727-a8c3-4c81-bb55-8f4ad7c361e0",
+      "Id": "692bbdc4ad8c66a4ab0ffe17",
       "Name": "Волейбол"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "e8a477e1-3846-42dc-9540-6090f564570c",
+    "Id": "692bbdc4ad8c66a4ab0ffe2d",
     "Name": "Кроссовки мужские Frontline Wave 2 белый/синий",
     "Description": "Современные кроссовки для волейбола с контрастным бело-синим дизайном. Технологичная конструкция верха обеспечивает надежную поддержку стопы во время прыжков. Усовершенствованная система амортизации поглощает ударные нагрузки при приземлении.",
     "Price": 3399,
     "ImageFile": "images/products/demix_volleyball-3.png",
     "Summary": "Кроссовки мужские Frontline Wave 2 белый/синий",
     "Types": {
-      "Id": "e201e727-a8c3-4c81-bb55-8f4ad7c361e0",
+      "Id": "692bbdc4ad8c66a4ab0ffe17",
       "Name": "Волейбол"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "b8a745a0-c7e4-4bf8-87fa-68ea1320633c",
+    "Id": "692bbdc4ad8c66a4ab0ffe2e",
     "Name": "Кроссовки женские Frontline Wave 2 белый/желтый",
     "Description": "Современные кроссовки для волейбола с контрастным бело-синим дизайном. Технологичная конструкция верха обеспечивает надежную поддержку стопы во время прыжков. Усовершенствованная система амортизации поглощает ударные нагрузки при приземлении.",
     "Price": 4400,
@@ -330,80 +330,80 @@
     "ImageFile": "images/products/demix_volleyball-4.png",
     "Summary": "Кроссовки женские Frontline Wave 2 белый/желтый",
     "Types": {
-      "Id": "e201e727-a8c3-4c81-bb55-8f4ad7c361e0",
+      "Id": "692bbdc4ad8c66a4ab0ffe17",
       "Name": "Волейбол"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "e25e2841-d0a8-4fd6-b102-9f4625ca07f5",
+    "Id": "692bbdc4ad8c66a4ab0ffe2f",
     "Name": "Волейбольные кроссовки Jogel Spirit Navy blue/Light green",
     "Description": "Специализированные кроссовки для волейбола в классическом бело-синем дизайне. Технологичный верх обеспечивает надежную поддержку стопы при прыжках и резких движениях. Усовершенствованная амортизация снижает нагрузку на суставы при приземлении.",
     "Price": 5190,
-    "ImageFile": "images/products/Jogel-volleyball-1.png",
+    "ImageFile": "images/products/jogel-volleyball-1.png",
     "Summary": "Волейбольные кроссовки Jogel Spirit Navy blue/Light green",
     "Types": {
-      "Id": "e201e727-a8c3-4c81-bb55-8f4ad7c361e0",
+      "Id": "692bbdc4ad8c66a4ab0ffe17",
       "Name": "Волейбол"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "8458fbc1-751d-4f2f-bddb-e375b7479e6d",
+    "Id": "692bbdc4ad8c66a4ab0ffe30",
     "Name": "Волейбольные кроссовки Jogel Spirit White/Navy blue",
     "Description": "Специализированные кроссовки для волейбола в классическом бело-синем дизайне. Технологичный верх обеспечивает надежную поддержку стопы при прыжках и резких движениях. Усовершенствованная амортизация снижает нагрузку на суставы при приземлении.",
     "Price": 5190,
     "ImageFile": "images/products/jogel_volleyball-2.png",
     "Summary": "Волейбольные кроссовки Jogel Spirit White/Navy blue",
     "Types": {
-      "Id": "e201e727-a8c3-4c81-bb55-8f4ad7c361e0",
+      "Id": "692bbdc4ad8c66a4ab0ffe17",
       "Name": "Волейбол"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "2e511213-4dd1-4593-bf9f-e44248a03873",
+    "Id": "692bbdc4ad8c66a4ab0ffe31",
     "Name": "Adidas FIFA World Cup 2018 OMB Football (белый/красный/черный)",
     "Description": "Благодаря инновационному дизайну поверхности этот футбольный мяч использовался во время Чемпионата мира по футболу FIFA™. Пиксельная графика, вдохновленная городскими пейзажами России, является данью уважения культовому мячу Telstar. Бесшовная поверхность мяча выполнена с термическим соединением.",
     "Price": 2999,
     "ImageFile": "images/products/adidas_football-1.png",
     "Summary": "Adidas FIFA World Cup 2018 OMB Football (белый/красный/черный)",
     "Types": {
-      "Id": "ecdb3aa6-5828-4715-a63d-5bf2259a436f",
+      "Id": "692bbdc4ad8c66a4ab0ffe18",
       "Name": "Футбол"
     },
     "Brands": {
-      "Id": "f1804d78-3a21-44bb-889e-2099c10b004b",
+      "Id": "692bbdc4ad8c66a4ab0ffe11",
       "Name": "Adidas"
     }
   },
   {
-    "Id": "12db9968-13df-4e38-9104-0cd86f888928",
+    "Id": "692bbdc4ad8c66a4ab0ffe32",
     "Name": "Чемпионат мира по футболу Adidas FIFA 2018 OMB Football",
     "Description": "Благодаря инновационному дизайну поверхности этот футбольный мяч использовался во время Чемпионата мира по футболу FIFA™. Пиксельная графика, вдохновленная городскими пейзажами России, является данью уважения культовому мячу Telstar. Бесшовная поверхность мяча выполнена с термическим соединением.",
     "Price": 4400,
     "ImageFile": "images/products/adidas_football-2.png",
     "Summary": "Чемпионат мира по футболу Adidas FIFA 2018 OMB Football",
     "Types": {
-      "Id": "ecdb3aa6-5828-4715-a63d-5bf2259a436f",
+      "Id": "692bbdc4ad8c66a4ab0ffe18",
       "Name": "Футбол"
     },
     "Brands": {
-      "Id": "f1804d78-3a21-44bb-889e-2099c10b004b",
+      "Id": "692bbdc4ad8c66a4ab0ffe11",
       "Name": "Adidas"
     }
   },
   {
-    "Id": "7eacdb87-a51b-4dc9-93a1-a2f6d30cb158",
+    "Id": "692bbdc4ad8c66a4ab0ffe33",
     "Name": "Чемпионат мира по футболу Adidas FIFA 2023 OMB Football",
     "Description": "Графика на шаре вдохновлена уникальными пейзажами Австралии и Новой Зеландии, а белые, черные, синие и желтые цвета символизируют обширные горы, озера и районы Индийского океана, которые окружают эти две страны.",
     "Price": 5299,
@@ -411,157 +411,157 @@
     "ImageFile": "images/products/adidas_football-3.png",
     "Summary": "Чемпионат мира по футболу Adidas FIFA 2023 OMB Football",
     "Types": {
-      "Id": "ecdb3aa6-5828-4715-a63d-5bf2259a436f",
+      "Id": "692bbdc4ad8c66a4ab0ffe18",
       "Name": "Футбол"
     },
     "Brands": {
-      "Id": "f1804d78-3a21-44bb-889e-2099c10b004b",
+      "Id": "692bbdc4ad8c66a4ab0ffe11",
       "Name": "Adidas"
     }
   },
   {
-    "Id": "f5b80290-7387-414a-86c6-d3e4986de3a8",
+    "Id": "692bbdc4ad8c66a4ab0ffe34",
     "Name": "Бутсы футбольные Evofly FG Pro Черный",
     "Description": "Профессиональные бутсы для игры на естественных газонах. Инновационный верх обеспечивает точный контроль мяча и надежную посадку по ноге. Облегченная конструкция и технологичная подошва FG оптимизированы для профессионального футбола.",
     "Price": 7699,
-    "ImageFile": "images/products/Jogel-football-1.png",
+    "ImageFile": "images/products/jogel-football-1.png",
     "Summary": "Бутсы футбольные Evofly FG Pro Черный",
     "Types": {
-      "Id": "ecdb3aa6-5828-4715-a63d-5bf2259a436f",
+      "Id": "692bbdc4ad8c66a4ab0ffe18",
       "Name": "Футбол"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "884f013b-7661-4b2d-adc8-9aed461c3f0e",
+    "Id": "692bbdc4ad8c66a4ab0ffe35",
     "Name": "Бутсы футбольные Evofly FG Pro Белый",
     "Description": "Профессиональные бутсы для игры на естественных газонах. Инновационный верх обеспечивает точный контроль мяча и надежную посадку по ноге. Облегченная конструкция и технологичная подошва FG оптимизированы для профессионального футбола.",
     "Price": 7699,
 
-    "ImageFile": "images/products/Jogel-football-2.png",
+    "ImageFile": "images/products/jogel-football-2.png",
     "Summary": "Бутсы футбольные Evofly FG Pro Белый",
     "Types": {
-      "Id": "ecdb3aa6-5828-4715-a63d-5bf2259a436f",
+      "Id": "692bbdc4ad8c66a4ab0ffe18",
       "Name": "Футбол"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "64f885f5-f9f6-49f9-be24-a34b24202d39",
+    "Id": "692bbdc4ad8c66a4ab0ffe36",
     "Name": "Обувь футбольная Jögel Rapido TF Navy/blue",
     "Description": "Универсальные футбольные бутсы для игры на искусственном покрытии. Специальная подошва TF обеспечивает устойчивость и оптимальное сцепление. Эргономичный дизайн верха гарантирует точность удара и комфорт при интенсивных движениях.",
     "Price": 3799,
-    "ImageFile": "images/products/Jogel-football-3.png",
+    "ImageFile": "images/products/jogel-football-3.png",
     "Summary": "Обувь футбольная Jögel Rapido TF Navy/blue",
     "Types": {
-      "Id": "ecdb3aa6-5828-4715-a63d-5bf2259a436f",
+      "Id": "692bbdc4ad8c66a4ab0ffe18",
       "Name": "Футбол"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "e800dbee-ce8a-4199-9d9a-e6fd24745bdf",
+    "Id": "692bbdc4ad8c66a4ab0ffe37",
     "Name": "Сумка Demix Объем 18 л.",
     "Description": "Практичная и функциональная сумка Demix с продуманной организацией внутреннего пространства. Два удобных кармана для мелочей и основных отделений для оптимального размещения вещей. Водоотталкивающая пропитка материала надежно защищает содержимое от дождя. Идеальный выбор для тренировок и путешествий с объемом 18 литров.",
     "Price": 1799,
-    "ImageFile": "images/products/babolat-kitback-1.png",
+    "ImageFile": "images/products/demix-kitback-1.png",
     "Summary": "Сумка Demix",
     "Types": {
-      "Id": "188a00b7-c3c0-4dde-959d-e559b7680f8c",
+      "Id": "692bbdc4ad8c66a4ab0ffe19",
       "Name": "Рюкзаки и сумки"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "5e818d8d-df57-4103-bece-ddb0f48a0be6",
+    "Id": "692bbdc4ad8c66a4ab0ffe38",
     "Name": "Сумка Demix Объем 50 л.",
     "Description": "Вместительная спортивная сумка объемом 50 литров для активного образа жизни. Функциональное отделение для вещей дополнено глубоким карманом для обуви и специальным отделением для аксессуаров. Эргономичный плечевой ремень обеспечивает удобную переноску. Идеальный вариант для тренировок и путешествий.",
     "Price": 3299,
-    "ImageFile": "images/products/babolat-kitback-2.png",
+    "ImageFile": "images/products/demix-kitback-2.png",
     "Summary": "Сумка Demix",
     "Types": {
-      "Id": "188a00b7-c3c0-4dde-959d-e559b7680f8c",
+      "Id": "692bbdc4ad8c66a4ab0ffe19",
       "Name": "Рюкзаки и сумки"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "fd1b97cd-b2d7-407f-8578-58d1ebe05956",
+    "Id": "692bbdc4ad8c66a4ab0ffe39",
     "Name": "Рюкзак Demix",
     "Description": "Водоотталкивающая пропитка обеспечивает защиту от влаги, а прочная ткань гарантирует долговечность и износостойкость. Рюкзак оснащён вместительным основным отделением, удобными регулируемыми лямками и боковыми карманами для бутылки или мелочей.",
     "Price": 2499,
-    "ImageFile": "images/products/babolat-kitback-3.png",
+    "ImageFile": "images/products/demix-kitback-3.png",
     "Summary": "Рюкзак Demix",
     "Types": {
-      "Id": "188a00b7-c3c0-4dde-959d-e559b7680f8c",
+      "Id": "692bbdc4ad8c66a4ab0ffe19",
       "Name": "Рюкзаки и сумки"
     },
     "Brands": {
-      "Id": "9e3a3076-d42f-48e5-a8a9-9514323a26b3",
+      "Id": "692bbdc4ad8c66a4ab0ffe14",
       "Name": "Demix"
     }
   },
   {
-    "Id": "ecf71cec-f933-4ab8-b805-8544b9ae77c5",
+    "Id": "692bbdc4ad8c66a4ab0ffe3a",
     "Name": "Спортивная сумка DIVISION Small Bag, 25 л",
     "Description": "Компактная и функциональная спортивная сумка объемом 25 литров от бренда Jögel. Универсальный дизайн подходит женщинам и юным спортсменам. Продуманная организация внутреннего пространства с отделениями для обуви и аксессуаров. Эргономичные ручки и регулируемый плечевой ремень для комфортной переноски.",
     "Price": 4200,
-    "ImageFile": "images/products/Jogel-kitback-1.png",
+    "ImageFile": "images/products/jogel-kitback-1.png",
     "Summary": "Спортивная сумка DIVISION Small Bag, 25 л",
     "Types": {
-      "Id": "188a00b7-c3c0-4dde-959d-e559b7680f8c",
+      "Id": "692bbdc4ad8c66a4ab0ffe19",
       "Name": "Рюкзаки и сумки"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "6ca1cde3-6b67-44e1-b6bb-167932387df4",
+    "Id": "692bbdc4ad8c66a4ab0ffe3b",
     "Name": "Рюкзак CAMP Double Bottom, 20 л",
     "Description": "Специализированный рюкзак для спортивных тренировок с инновационной системой двойного дна. Технологичное разделение пространства позволяет безопасно хранить обувь отдельно от основной одежды. Вместительное основное отделение и функциональные карманы для аксессуаров. Эргономичная спинка и регулируемые лямки обеспечивают комфорт при переноске. Объем 20 литров оптимален для ежедневных тренировок.",
     "Price": 5799,
 
-    "ImageFile": "images/products/Jogel-kitback-2.png",
+    "ImageFile": "images/products/jogel-kitback-2.png",
     "Summary": "Рюкзак CAMP Double Bottom, 20 л",
     "Types": {
-      "Id": "188a00b7-c3c0-4dde-959d-e559b7680f8c",
+      "Id": "692bbdc4ad8c66a4ab0ffe19",
       "Name": "Рюкзаки и сумки"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   },
   {
-    "Id": "e4e74b1b-53aa-4ab3-b5b0-76cb7f25c3e7",
+    "Id": "692bbdc4ad8c66a4ab0ffe3c",
     "Name": "Медицинская сумка DIVISION Medical Bag",
     "Description": "Специализированная медицинская сумка для оснащения спортивных мероприятий и тренировочных объектов. Функциональное отделение с продуманной организацией внутреннего пространства обеспечивает быстрый доступ к медицинскому оборудованию. Прочные водоотталкивающие материалы и эргономичные ручки для удобства транспортировки.",
     "Price": 2799,
-    "ImageFile": "images/products/Jogel-kitback-3.png",
+    "ImageFile": "images/products/jogel-kitback-3.png",
     "Summary": "Медицинская сумка DIVISION Medical Bag",
     "Types": {
-      "Id": "188a00b7-c3c0-4dde-959d-e559b7680f8c",
+      "Id": "692bbdc4ad8c66a4ab0ffe19",
       "Name": "Рюкзаки и сумки"
     },
     "Brands": {
-      "Id": "40cd7c69-7e72-4e65-aba1-06250d0ffbf7",
+      "Id": "692bbdc4ad8c66a4ab0ffe15",
       "Name": "Jogel"
     }
   }

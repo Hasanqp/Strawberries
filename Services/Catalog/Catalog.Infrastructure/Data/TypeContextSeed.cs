@@ -12,8 +12,9 @@ namespace Catalog.Infrastructure.Data
             bool checkTypes = typeCollection.Find(b => true).Any();
 
             // Build the path to the JSON seed data file for product types
-            string path = Path.Combine("Data", "SeedData", "types.json");
-
+            //string path = Path.Combine("Data", "SeedData", "types.json");
+            var basePath = AppContext.BaseDirectory;
+            var path = Path.Combine(basePath, "Data", "SeedData", "types.json");
             // Only seed data if the collection is empty (no existing types)
             if (!checkTypes)
             {

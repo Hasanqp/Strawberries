@@ -12,7 +12,8 @@ namespace Catalog.Infrastructure.Data
             bool checkBrands = brandCollection.Find(b => true).Any();
 
             // Build the path to the JSON seed data file dynamically
-            string path = Path.Combine("Data", "SeedData", "brands.json");
+            var basePath = AppContext.BaseDirectory;
+            var path = Path.Combine(basePath, "Data", "SeedData", "brands.json");
 
             // Only seed data if the collection is empty
             if (!checkBrands)
