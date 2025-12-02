@@ -1,11 +1,12 @@
 ﻿using Catalog.Core.Entities;
+using Catalog.Core.Specs;
 
 namespace Catalog.Core.Repositories
 {
     public interface IProductRepository
     {
         // Get all products
-        Task<IEnumerable<Product>> GetProducts();
+        Task<Pagination<Product>> GetProducts(CatalogSpecParams catalogSpecParams);
         // Get a specific product by ID
         Task<Product> GetProduct(string id);
         // Get products by name

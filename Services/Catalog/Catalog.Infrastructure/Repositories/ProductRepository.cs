@@ -1,5 +1,6 @@
 ﻿using Catalog.Core.Entities;
 using Catalog.Core.Repositories;
+using Catalog.Core.Specs;
 using Catalog.Infrastructure.Data;
 using MongoDB.Driver;
 
@@ -26,12 +27,32 @@ namespace Catalog.Infrastructure.Repositories
         }
 
         // IProductRepository implementation: Get all products
-        async Task<IEnumerable<Product>> IProductRepository.GetProducts()
+        async Task<Pagination<Product>> IProductRepository.GetProducts(CatalogSpecParams catalogSpecParams)
         {
-            return await _context
-                .Products
-                .Find(p => true)
-                .ToListAsync();
+            var builder = Builders<Product>.Filter;
+            var filter = builder.Empty;
+            if (!string.IsNullOrEmpty(catalogSpecParams.Search))
+            {
+                filter = filter & builder.Where(p => p.Name.ToLower().Contains(catalogSpecParams.Search.ToLower()));
+            }
+            if (!string.IsNullOrEmpty(catalogSpecParams.BrandId))
+            {
+                var brandFilter = builder.Eq(p => p.Brands.Id, catalogSpecParams.BrandId);
+                filter &= brandFilter;
+            }
+            if (!string.IsNullOrEmpty(catalogSpecParams.TypeId))
+            {
+                var typeFitler = builder.Eq(p => p.Types.Id, catalogSpecParams.TypeId);
+                filter &= typeFitler;
+            }
+            var totalItems = await _context.Products.CountDocumentsAsync(filter);
+            var data = await DataFilter(catalogSpecParams, filter);
+            return new Pagination<Product>(
+                    catalogSpecParams.PageIndex,
+                    catalogSpecParams.PageSize,
+                   (int)totalItems,
+                   data
+            );
         }
 
         // IProductRepository implementation: Get products by brand name (case-insensitive)
@@ -93,6 +114,33 @@ namespace Catalog.Infrastructure.Repositories
                 .Types
                 .Find(type => true)
                 .ToListAsync();
+        }
+
+        private async Task<IReadOnlyList<Product>> DataFilter(CatalogSpecParams catalogSpecParams, FilterDefinition<Product> filter)
+        {
+            var sortDefn = Builders<Product>.Sort.Ascending("Name"); // default
+            if (!string.IsNullOrEmpty(catalogSpecParams.Sort))
+            {
+                switch (catalogSpecParams.Sort)
+                {
+                    case "priceAsc":
+                        sortDefn = Builders<Product>.Sort.Ascending(p => p.Price);
+                        break;
+                    case "priceDesc":
+                        sortDefn = Builders<Product>.Sort.Descending(p => p.Price);
+                        break;
+                    default:
+                        sortDefn = Builders<Product>.Sort.Ascending(p => p.Name);
+                        break;
+                }
+            }
+            return await _context
+            .Products
+            .Find(filter)
+            .Sort(sortDefn)
+            .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex - 1))
+            .Limit(catalogSpecParams.PageSize)
+            .ToListAsync();
         }
     }
 }
