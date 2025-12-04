@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "http": {
+    "Basket.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
@@ -8,7 +8,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5226"
+      "applicationUrl": "http://localhost:8001"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -25,8 +25,7 @@
       "environmentVariables": {
         "ASPNETCORE_HTTP_PORTS": "8080"
       },
-      "publishAllPorts": true,
-      "useSSL": false
+      "publishAllPorts": true
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -34,7 +33,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:46216",
+      "applicationUrl": "http://localhost:8102",
       "sslPort": 0
     }
   }
