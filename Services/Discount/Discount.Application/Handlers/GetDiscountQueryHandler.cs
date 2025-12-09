@@ -19,7 +19,8 @@ namespace Discount.Application.Handlers
             var coupon = await _discountRepository.GetDiscount(request.ProductName);
             if (coupon == null)
             {
-                throw new RpcException(new Status(StatusCode.NotFound, $"Discount for the Product Name = {request.ProductName} not found"));
+                throw new RpcException(new Status(StatusCode.NotFound,
+                    $"Скидка на товар = {request.ProductName} не найдена."));
             }
             var couponModel = new CouponModel
             {
