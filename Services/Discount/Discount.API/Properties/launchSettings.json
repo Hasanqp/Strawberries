@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "http": {
+    "Discount.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
@@ -8,7 +8,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5045"
+      "applicationUrl": "http://localhost:8002"
     },
     "IIS Express": {
       "commandName": "IISExpress",
