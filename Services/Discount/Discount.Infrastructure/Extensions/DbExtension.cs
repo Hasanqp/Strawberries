@@ -17,43 +17,63 @@ namespace Discount.Infrastructure.Extensions
                 var logger = services.GetRequiredService<ILogger<TContext>>();
                 try
                 {
-                    logger.LogInformation("Discount DB Migrtion Started");
+                    logger.LogInformation("Начата миграция базы данных Discount DB");
                     ApplyMigrations(config);
-                    logger.LogInformation("Discount DB Migration Completed");
+                    logger.LogInformation("Миграция базы данных Discount DB завершена");
                 }
                 catch(Exception ex)
                 {
-                    Console.WriteLine(ex);
+                    logger.LogError(ex, "Произошла ошибка при миграции базы данных.");
                     throw;
                 }
             }
-                return host;
+            return host;
         }
 
         private static void ApplyMigrations(IConfiguration config)
         {
-            using var connection = new NpgsqlConnection(config.GetValue<string>("DatabaseSettings:ConnectionString"));
-            connection.Open();
-            using var cmd = new NpgsqlCommand()
+            var retry = 5;
+            while (retry > 0)
             {
-                Connection = connection
-            };
-            cmd.CommandText = "DROP TABLE IF EXISTS Coupon";
-            cmd.ExecuteNonQuery();
-            cmd.CommandText = @"
+                try
+                {
+                    using var connection = new NpgsqlConnection(config.GetValue<string>("DatabaseSettings:ConnectionString"));
+                    connection.Open();
+                    using var cmd = new NpgsqlCommand
+                    {
+                        Connection = connection
+                    };
+                    cmd.CommandText = "DROP TABLE IF EXISTS Coupon";
+                    cmd.ExecuteNonQuery();
+                    cmd.CommandText = @"
                 CREATE TABLE Coupon(
                     Id SERIAL PRIMARY KEY,
                     ProductName VARCHAR(200) NOT NULL,
                     Description TEXT,
                     Amount INT
                     )";
-            cmd.ExecuteNonQuery();
+                    cmd.ExecuteNonQuery();
 
-            cmd.CommandText = "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('Кроссовки Adidas Performance Crazyflight 6', 'Скидка на обувь', 500)";
-            cmd.ExecuteNonQuery();
+                    cmd.CommandText = "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('Кроссовки Adidas Performance Crazyflight 6', 'Скидка на обувь', 500)";
+                    cmd.ExecuteNonQuery();
 
-            cmd.CommandText = "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('Кроссовки Adidas Performance Novaflight 2', 'Запросить скидку', 700)";
-            cmd.ExecuteNonQuery();
+                    cmd.CommandText = "INSERT INTO Coupon(ProductName, Description, Amount) VALUES('Кроссовки Adidas Performance Novaflight 2', 'Запросить скидку', 700)";
+                    cmd.ExecuteNonQuery();
+
+                    //Exit loop if successful
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    retry--;
+                    if(retry == 0)
+                    {
+                        throw;
+                    }
+                    // wait for 2 seconds
+                    Thread.Sleep(2000);
+                }
+            } 
         }
     }
 }

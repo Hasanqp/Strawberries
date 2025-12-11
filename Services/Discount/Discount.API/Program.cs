@@ -8,12 +8,10 @@ using System.Reflection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-// Register AutoMapper
+//Register AutoMapper
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
-
-// Register MediatR
+//Register Mediatr
 var assemblies = new Assembly[]
 {
     Assembly.GetExecutingAssembly(),
@@ -26,7 +24,7 @@ builder.Services.AddGrpc();
 
 var app = builder.Build();
 
-// Migrate Databse
+//Migrate Database
 app.MigrateDatabase<Program>();
 
 // Configure the HTTP request pipeline.
@@ -35,7 +33,6 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-app.UseAuthorization();
 
 app.UseRouting();
 
@@ -44,7 +41,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapGrpcService<DiscountService>();
     endpoints.MapGet("/", async context =>
     {
-        await context.Response.WriteAsync("Связь с конечными точками grpc должна осуществляться через клиент grpc.");
+        await context.Response.WriteAsync("Communication with grpc endpoints must be made through a grpc client");
     });
 });
 
