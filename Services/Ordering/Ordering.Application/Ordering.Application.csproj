@@ -15,7 +15,6 @@
     <Folder Include="Handlers\" />
     <Folder Include="Mappers\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Responses\" />
     <Folder Include="Queries\" />
   </ItemGroup>
 
