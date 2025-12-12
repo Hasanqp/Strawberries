@@ -22,12 +22,12 @@ namespace Ordering.Infrastructure.Data
                 new()
                 {
                     UserName = "hasan",
-                    FirstName = "hasan",
-                    LastName = "ali",
+                    FirstName = "Hasan",
+                    LastName = "Ali",
                     EmailAddress = "hasanali@Strawberries.net",
                     AddressLine = "Moskovskaya Ulitsa 1, Kirov",
                     Country = "Russia",
-                    TotalPrice = 750,
+                    TotalPrice = 900,
                     State = "KIR",
                     ZipCode = "610020",
 
