@@ -2,7 +2,7 @@
 
 namespace Ordering.Core.Entities
 {
-    public class Order : EntitiyBase
+    public class Order : EntityBase
     {
         public string? UserName { get; set; }
         public decimal? TotalPrice { get; set; }

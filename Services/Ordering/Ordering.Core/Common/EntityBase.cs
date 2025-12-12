@@ -1,6 +1,6 @@
 ﻿namespace Ordering.Core.Common
 {
-    public abstract class EntitiyBase
+    public abstract class EntityBase
     {
         // Protected set is made to use in the derived classes
         public int Id { get; protected set; }
