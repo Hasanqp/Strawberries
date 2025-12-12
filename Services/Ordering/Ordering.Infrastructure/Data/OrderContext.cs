@@ -10,7 +10,7 @@ namespace Ordering.Infrastructure.Data
         {
             
         }
-        public DbSet<Order> orders { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         public override Task<int> SaveChangesAsync(bool acceptAllChangesonSuccess, CancellationToken cancellationToken = default)
         {
