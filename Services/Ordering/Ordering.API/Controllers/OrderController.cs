@@ -7,12 +7,12 @@ using System.Net;
 
 namespace Ordering.API.Controllers
 {
-    public class OrderContoller : ApiController
+    public class OrderController : ApiController
     {
         private readonly IMediator _mediator;
-        private readonly ILogger<OrderContoller> _logger;
+        private readonly ILogger<OrderController> _logger;
 
-        public OrderContoller(IMediator mediator, ILogger<OrderContoller> logger)
+        public OrderController(IMediator mediator, ILogger<OrderController> logger)
         {
             _mediator = mediator;
             _logger = logger;
@@ -36,7 +36,7 @@ namespace Ordering.API.Controllers
             return Ok(result);
         }
 
-        [HttpPost(Name = "UpdateOrder")]
+        [HttpPut(Name = "UpdateOrder")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<int>> UpdateOrder([FromBody] UpdateOrderCommand command)

@@ -12,9 +12,9 @@ namespace Ordering.Application.Handlers
     {
         private readonly IOrderRepository _orderRepository;
         private readonly IMapper _mapper;
-        private readonly ILogger _logger;
+        private readonly ILogger<UpdateOrderCommandHandler> _logger;
 
-        public UpdateOrderCommandHandler(IOrderRepository orderRepository, IMapper mapper, ILogger<UpdateOrderCommand> logger)
+        public UpdateOrderCommandHandler(IOrderRepository orderRepository, IMapper mapper, ILogger<UpdateOrderCommandHandler> logger)
         {
             _orderRepository = orderRepository;
             _mapper = mapper;

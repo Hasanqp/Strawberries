@@ -30,6 +30,20 @@ services:
       timeout: 5s
       retries: 5
 
+  orderdb:
+    container_name: orderdb
+    environment:
+      SA_PASSWORD: "Password12345"
+      ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'Password12345' -C -Q 'select 1'"]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+
   catalog.api:
     container_name: catalog.api
     environment:
@@ -66,6 +80,17 @@ services:
     ports:
       - "8002:8080"
 
+  ordering.api:
+    container_name: ordering.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings__OrderingConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=Password12345;TrustServerCertificate=True" 
+    depends_on:
+       orderdb:
+         condition: service_healthy 
+    ports:
+      - "8003:8080"
+
   pgadmin:
     container_name: pgadmin
     environment:
@@ -87,8 +112,4 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - portainer_data:/data
 
-volumes:
-  mongo_data:
-  postgres_data:
-  pgadmin_data:
-  portainer_data:
+  
