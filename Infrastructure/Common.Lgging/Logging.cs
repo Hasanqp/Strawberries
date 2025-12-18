@@ -6,11 +6,11 @@ namespace Common.Lgging
 {
     public static class Logging
     {
-        public static Action<HostBuilderContext, LoggerConfiguration> cfg =>
-            (context, LoggerConfiguration) =>
+        public static Action<HostBuilderContext, LoggerConfiguration> ConfigureLogger =>
+            (context, loggerConfiguration) =>
             {
                 var env = context.HostingEnvironment;
-                LoggerConfiguration.MinimumLevel.Information()
+                loggerConfiguration.MinimumLevel.Information()
                 .Enrich.FromLogContext()
                 .Enrich.WithProperty("ApplicationName", env.ApplicationName)
                 .Enrich.WithProperty("EnvironmentName", env.EnvironmentName)
@@ -21,10 +21,10 @@ namespace Common.Lgging
 
                 if(context.HostingEnvironment.IsDevelopment())
                 {
-                    LoggerConfiguration.MinimumLevel.Override("Catalog", Serilog.Events.LogEventLevel.Debug);
-                    LoggerConfiguration.MinimumLevel.Override("Basket", Serilog.Events.LogEventLevel.Debug);
-                    LoggerConfiguration.MinimumLevel.Override("Discount", Serilog.Events.LogEventLevel.Debug);
-                    LoggerConfiguration.MinimumLevel.Override("Ordering", Serilog.Events.LogEventLevel.Debug);
+                    loggerConfiguration.MinimumLevel.Override("Catalog", Serilog.Events.LogEventLevel.Debug);
+                    loggerConfiguration.MinimumLevel.Override("Basket", Serilog.Events.LogEventLevel.Debug);
+                    loggerConfiguration.MinimumLevel.Override("Discount", Serilog.Events.LogEventLevel.Debug);
+                    loggerConfiguration.MinimumLevel.Override("Ordering", Serilog.Events.LogEventLevel.Debug);
                 }
             };
     }
