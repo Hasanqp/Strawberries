@@ -3,7 +3,7 @@ using Catalog.Application.Handlers;
 using Catalog.Core.Repositories;
 using Catalog.Infrastructure.Data;
 using Catalog.Infrastructure.Repositories;
-using Common.Lgging;
+using Common.Logging;
 using Serilog;
 using System.Reflection;
 

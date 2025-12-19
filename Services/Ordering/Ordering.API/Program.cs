@@ -1,5 +1,5 @@
 using Asp.Versioning;
-using Common.Lgging;
+using Common.Logging;
 using EventBus.Messages.Common;
 using MassTransit;
 using Ordering.API.EventBusConsumer;

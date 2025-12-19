@@ -1,4 +1,4 @@
-﻿using Common.Lgging;
+﻿using Common.Logging;
 using Discount.API.Services;
 using Discount.Application.Handlers;
 using Discount.Core.Repositories;
