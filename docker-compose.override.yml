@@ -81,6 +81,7 @@ services:
       - "DatabaseSettings__CollectionName=Products"
       - "DatabaseSettings__BrandsCollection=Brands"
       - "DatabaseSettings__TypesCollection=Types"
+      - "ElasticConfiguration__Uri=http://elasticsearch:9200"
     depends_on:
       - catalogdb
     ports:
@@ -92,7 +93,8 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - "CacheSettings__ConnectionString=basketdb:6379"
       - "GrpcSettings__DiscountUrl=http://discount.api:8080"
-      - "EventBusSettings__HostAddress=amqp://guest:guest@rabbitmq:5672" 
+      - "EventBusSettings__HostAddress=amqp://guest:guest@rabbitmq:5672"
+      - "ElasticConfiguration__Uri=http://elasticsearch:9200"
     depends_on:
       - basketdb
       - rabbitmq
@@ -104,6 +106,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "DatabaseSettings__ConnectionString=Server=discountdb;Port=5432;Database=DiscountDb;User Id=admin;Password=Password12345;"
+      - "ElasticConfiguration__Uri=http://elasticsearch:9200"
     depends_on:
        discountdb:
          condition: service_healthy
@@ -115,21 +118,22 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "ConnectionStrings__OrderingConnectionString=Server=orderdb;Database=OrderDb;User Id=sa;Password=Password12345;TrustServerCertificate=True" 
-      - "EventBusSettings__HostAddress=amqp://guest:guest@rabbitmq:5672" 
+      - "EventBusSettings__HostAddress=amqp://guest:guest@rabbitmq:5672"
+      - "ElasticConfiguration__Uri=http://elasticsearch:9200"
     depends_on:
       - rabbitmq
       - orderdb
     ports:
       - "8003:8080"
+    command: >
+      sh -c "sleep 38 && dotnet of database update -c OrderContext && dotnet Orderning.API.dll"
 
   elasticsearch:
     container_name: elasticsearch
     environment:
-      - xpack.monitoring.enabled=true
-      - xpack.watcher.enabled=false
-      - xpack.security.enabled=false
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - discovery.type=single-node
+      - xpack.security.enabled=false
     ports:
       - "9200:9200"
     volumes:
@@ -138,7 +142,7 @@ services:
   kibana:
     container_name: kibana
     environment:
-      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
     depends_on:
       - elasticsearch
     ports:
