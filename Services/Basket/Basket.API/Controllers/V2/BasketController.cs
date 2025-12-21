@@ -12,8 +12,6 @@ using System.Net;
 namespace Basket.API.Controllers.V2
 {
     [ApiVersion("1")]
-    [Route("api/v{version:apiVersion}/[controller]")]
-    [ApiController]
     public class BasketController : ControllerBase
     {
         private readonly IPublishEndpoint _publishEndpoint;
