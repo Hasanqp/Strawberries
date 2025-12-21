@@ -1,4 +1,5 @@
 using Asp.Versioning;
+using Asp.Versioning.ApiExplorer;
 using Basket.Application.GrpcService;
 using Basket.Application.Handlers;
 using Basket.Core.Repositories;
@@ -18,13 +19,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog(Logging.ConfigureLogger);
 
 builder.Services.AddControllers();
-// Add API Versioning
+// Add Versioned API Explorer to support versioning
 builder.Services.AddApiVersioning(options =>
 {
     options.ReportApiVersions = true;
     options.AssumeDefaultVersionWhenUnspecified = true;
     options.DefaultApiVersion = new ApiVersion(1, 0);
-});
+})
+.AddApiExplorer(options =>
+ {
+     options.GroupNameFormat = "'v'VVV";
+     options.SubstituteApiVersionInUrl = true;
+ });
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
