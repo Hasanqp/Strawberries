@@ -129,3 +129,52 @@ The project relies on a carefully selected set of libraries and tools to support
 ```bash
 git clone https://github.com/Hasanqp/Strawberries.git
 cd Strawberries
+```
+---
+
+### 2️⃣ Run Using Docker
+```bash
+docker-compose up --build
+```
+---
+
+## 3️⃣ Access the Services
+Once all containers are running, you can access:
+- Catalog Service: http://localhost:8000/swagger
+- Basket Service: http://localhost:8001/swagger
+- Ordering Service: http://localhost:8004/swagger
+- Discount gRPC Service: http://localhost:8003 (gRPC endpoint)
+- Portainer (Container Management): http://localhost:9000
+- Kibana (Log Analysis): http://localhost:5601
+
+---
+
+## 🚀 Features
+
+- ✅ Fully Dockerized microservices environment
+- ✅ Event-driven architecture using RabbitMQ
+- ✅ High-performance caching with Redis
+- ✅ Database-per-microservice design
+- ✅ Scalable and modular backend
+- ✅ API versioning with Swagger documentation
+
+---
+
+## 🔮 Future Enhancements
+
+- Implement Frontend UI (Angular)
+- Add Authentication & Authorization
+- Unit & Integration Testing
+- CI/CD pipelines for automatic deployment
+- Cloud deployment (Azure / AWS)
+
+---
+
+## 👥 Contributors
+Hasanqp – Backend Development · Microservices Architecture · Docker · System Design.
+
+---
+
+## 📬 Contact
+- GitHub: [https://github.com/Hasanqp](https://github.com/Hasanqp)
+- LinkedIn: [https://www.linkedin.com/in/hasan-gubran](https://www.linkedin.com/in/hasan-gubran/)
